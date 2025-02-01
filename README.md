@@ -2,6 +2,9 @@
 
 This is a React application built with Vite and TypeScript, utilizing TensorFlow.js for text sentiment analysis.
 
+![Screenshot From 2025-02-01 18-30-38](https://github.com/user-attachments/assets/51133079-d512-4fe0-bed1-cfef308c443e)
+
+
 ## Features
 - **Real-time Sentiment Analysis**: Uses TensorFlow.js to analyze the sentiment of text input.
 - **Fast and Lightweight**: Built with Vite for optimized performance.
@@ -55,9 +58,6 @@ Ensure you have Node.js and npm installed.
 ├── package.json     # Dependencies and scripts
 ├── README.md        # Project documentation
 ```
-
-## Frontend Look
-Paste your screenshots of the frontend here.
 
 ## Deployment
 To build the project for production:
