@@ -8,14 +8,13 @@ This is a React application built with Vite and TypeScript, utilizing TensorFlow
 ## Features
 - **Real-time Sentiment Analysis**: Uses TensorFlow.js to analyze the sentiment of text input.
 - **Fast and Lightweight**: Built with Vite for optimized performance.
-- **Custom Scrollbar Styling**: Styled with Tailwind CSS for a clean UI.
 - **Interactive UI**: Provides instant feedback on text sentiment.
 
 ## Tech Stack
 - **React** (with Vite)
 - **TypeScript**
 - **TensorFlow.js** (for sentiment analysis)
-- **Tailwind CSS** (for styling)
+- **Tailwind CSS**
 
 ## Installation
 ### Prerequisites
