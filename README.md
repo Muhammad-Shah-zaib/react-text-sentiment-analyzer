@@ -1,11 +1,11 @@
-![image](https://github.com/user-attachments/assets/c6f37375-7663-4d68-ba9f-525d6f2228d2)# Sentiment Analysis React App
+# Sentiment Analysis React App
 
 This is a responsive React application built with Vite and TypeScript, utilizing TensorFlow.js for text sentiment analysis.
 
 **Desktop view**
 ![Screenshot From 2025-02-01 18-30-38](https://github.com/user-attachments/assets/51133079-d512-4fe0-bed1-cfef308c443e)
 
-**Mobile view*
+**Mobile view**
 ![image](https://github.com/user-attachments/assets/a0ec7dd3-d744-4817-985d-1b89c23e0790) 
 ![image](https://github.com/user-attachments/assets/fce01e83-790d-4329-858c-09e0ac3e0888)
 ![image](https://github.com/user-attachments/assets/5bf44859-ed79-400d-a4e9-55a3301e5b6a)
