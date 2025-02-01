@@ -78,6 +78,7 @@ const SentimentAnalyzer: React.FC = () => {
     const thresholdValue = parseFloat(thresholdInput);
     if (thresholdValue >= 0 && thresholdValue <= 1) {
       setThreshold(thresholdValue);
+      setModel(null);
       toast.success("Threshold Updated Successfully!"); // Success toast for update
     } else {
       setThresholdInput(""); // Reset the input if invalid
@@ -158,7 +159,7 @@ const SentimentAnalyzer: React.FC = () => {
         </div>
 
         {/* Display Results (Desktop) */}
-        <div className="min-w-[400px] mnax-h-[400px] w-full pr-20 sm:block hidden">
+        <div className="mt-4 min-w-[400px] mnax-h-[400px] w-full pr-20 sm:block hidden">
           {result && <ResultDisplay predictions={result} />}
         </div>
 

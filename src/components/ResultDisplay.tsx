@@ -14,7 +14,10 @@ interface ResultDisplayProps {
 
 const ResultDisplay: React.FC<ResultDisplayProps> = ({ predictions }) => {
   return (
-    <div id="result-report-ctn" className="max-h-[350px] w-full overflow-auto p-4 bg-zinc-900 text-white rounded-lg shadow-lg">
+    <div
+      id="result-report-ctn"
+      className=" max-h-[350px] w-full overflow-auto p-4 bg-zinc-900 text-white rounded-lg shadow-lg"
+    >
       <h3 className="text-2xl font-semibold mb-4 text-emerald-500">
         Analysis Result:
       </h3>
