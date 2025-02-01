@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+# Sentiment Analysis React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built with Vite and TypeScript, utilizing TensorFlow.js for text sentiment analysis.
 
-Currently, two official plugins are available:
+## Features
+- **Real-time Sentiment Analysis**: Uses TensorFlow.js to analyze the sentiment of text input.
+- **Fast and Lightweight**: Built with Vite for optimized performance.
+- **Custom Scrollbar Styling**: Styled with Tailwind CSS for a clean UI.
+- **Interactive UI**: Provides instant feedback on text sentiment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React** (with Vite)
+- **TypeScript**
+- **TensorFlow.js** (for sentiment analysis)
+- **Tailwind CSS** (for styling)
 
-## Expanding the ESLint configuration
+## Installation
+### Prerequisites
+Ensure you have Node.js and npm installed.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/your-repo.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd your-repo
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
+- Enter text in the provided input field.
+- The app will analyze the sentiment and display results in real-time.
+- The results are styled using Tailwind CSS, including a custom scrollbar.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Project Structure
+```
+├── src
+│   ├── components   # Reusable UI components
+│   ├── hooks        # Custom React hooks
+│   ├── models       # TensorFlow.js models for sentiment analysis
+│   ├── pages        # Main pages of the app
+│   ├── styles       # Tailwind and global styles
+│   ├── App.tsx      # Main app component
+│   ├── main.tsx     # Entry point
+├── public           # Static assets
+├── package.json     # Dependencies and scripts
+├── README.md        # Project documentation
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Frontend Look
+Paste your screenshots of the frontend here.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Deployment
+To build the project for production:
+```sh
+npm run build
 ```
+To preview the production build:
+```sh
+npm run preview
+```
+
+## Contributing
+Feel free to fork the repo and submit pull requests. Any improvements or bug fixes are welcome!
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+Happy coding! 🚀
+
